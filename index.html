@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOLÍS | ASESORES CONTABLES</title>
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- custom css -->
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <!---------------- HEADER ----------------->
+  <header class="">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <ul class="list-inline info">
+            <li class="list-inline-item">
+              <small><i class="fas fa-phone-alt"></i> <a class="link_nav" href="tel:24419396 ">(506) 2441-9396</a>
+                <a class="link_nav" href="tel:701416956">(506) 7014-16-956</a></small></small>
+            </li>
+            <li class="list-inline-item">
+              <small><i class="fas fa-envelope"></i> <a class="link_nav"
+                  href="mailto:conta@solisasesorescontables.net?subject=mas informacion acerca de">conta@solisasesorescontables.net</a></small></small>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="list-inline redes">
+            <li class="list-inline-item">
+              <small><a target="_blank" class="link_nav" href="https://wa.me/50671207974"><i
+                    class="fab fa-whatsapp"></i></a></small>
+            </li>
+            <li class="list-inline-item">
+              <small><a target="_blank" class="link_nav" href="https://www.facebook.com/solisasesorcontable/"><i
+                    class="fab fa-facebook-f"></i></a></small>
+            </li>
+
+            <li class="list-inline-item">
+              <a href="#contactenos" type="button" class="btn-sm btn-primary btn-consulta"
+                style="text-decoration: none;">
+                Envíenos su Consulta</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </header>
+
+  <!------------------ NAVBAR ----------------------------->
+
+  <nav id="mainNavbar" class="navbar navbar-expand-md py-0 menu ">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">
+        <img src="img/logo-header1.png" alt="">
+
+      </a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+        data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon custom-toggler"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse  justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link menu" href="#">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a href="#quienessomos" class="nav-link menu" id="btn_quines">QUIÉNES SOMOS</a>
+          </li>
+          <li class="nav-item">
+            <a href="#servicios" class="nav-link menu" id="btn_quines">SERVICIOS</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contactenos" type="button" class="nav-link menu" id="btn_contactenos">CONTÁCTENOS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-------------- CAROUSEL------------------->
+  <!-- Logo en modo starphone -->
+  <div class="logoContenedor">
+    <img class="logo_smartphone" src="img/logo_header2.png" alt="">
+    <img class="imagenFondoLogo" src="img/banner1.jpg" alt="">
+  </div>
+
+  <section class="carousel">
+
+    <div id="demo" class="carousel slide " data-ride="carousel" data-interval="7000">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner banner">
+        <div class="carousel-item active ">
+          <img class="d-block img-fluid" src="img/banner1.jpg" alt="">
+          <div class="carousel-caption d-none d-md-block ">
+            <h1>Nuestros Contadores le ayudarán a:</h1>
+            <h3>1. Actualizar contabilidades atrasadas</h3>
+            <a href="#contactenos" type="button" class="btn btn-secondary_carousel">Contactenos</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="img/banner2.jpg" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Nuestros Contadores le ayudarán a:</h1>
+            <h3>2. Presentar declaraciones de impuestos</h3>
+            <a href="#contactenos" type="button" class="btn btn-secondary_carousel">Contactenos</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="img/banner3.jpg" alt="">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Nuestros Contadores le ayudarán a:</h1>
+            <h3>3. Elaborar la contabilidad de su empresa</h3>
+            <a href="#contactenos" type="button" class="btn btn-secondary_carousel">Contactenos</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!--------------- POR QUE ELEGIRNOS ------------------------>
+  <section id="quienessomos">
+    <div class="container">
+      <div class="centrarTexto">
+        <h2 id="quienessomos">Conoce Quiénes Somos | Solís Asesores Contables</h2>
+        <p class="ptexto">
+          Mas que una contabilidad, es un acompañamiento busca asesoría Solis Asesores Contables de forma outsourcing le
+          ayuda a despreocuparse por esos temas tributarios y contables y lograras enfocar su estrategia al crecimiento
+          de su negocio.
+        </p>
+      </div>
+
+      <!-- <div class="row">
+        <div class="col">
+
+        </div>
+      </div> -->
+      <div class="d-flex flex-wrap">
+        <div data-position="left" data-offset="60" class="d-flex infoBlocks notViewed animBlock">
+
+          <div class="">
+            <i class="fas fa-calendar-times iconosMorados"></i>
+          </div>
+          <div class="espacioTextos">
+            <h3 class="font-weight-bold">¿Requiere ordenar periodos contables atrasados?</h3>
+            <p class="parrafoGris">Nuestros contadores privados le ayudarán a realizar conciliaciones, registrar
+              transacciones, elaborar balances y actualizar su ciclo contable.
+            </p>
+            <a href="#contactenos" type="button" class="btn btn-secondary">Contactenos</a>
+          </div>
+
+        </div>
+
+
+        <div data-position="right" data-offset="60" class="d-flex infoBlocks notViewed animBlock">
+
+          <div class="ml-auto">
+            <i class="fas fa-history iconosMorados"></i>
+          </div>
+          <div class="espacioTextos">
+            <h3 class="font-weight-bold">¿Tiene declaraciones de impuestos vencidas?</h3>
+            <p class="parrafoGris">Nuestro despacho contable se encargará de mantener en orden la información tributaria
+              de su empresa y así evitarle pagar multase.
+            </p>
+            <a href="#contactenos" type="button" class="btn btn-secondary">Contactenos</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="d-flex flex-wrap">
+        <div data-position="left" data-offset="60" class="d-flex infoBlocks notViewed animBlock">
+
+          <div class="">
+            <i class="fas fa-sync iconosMorados"></i>
+          </div>
+          <div class="espacioTextos">
+            <h3 class="font-weight-bold">¿Requiere ordenar periodos contables atrasados?</h3>
+            <p class="parrafoGris">Nuestros contadores privados le ayudarán a realizar conciliaciones, registrar
+              transacciones, elaborar balances y actualizar su ciclo contable.
+            </p>
+            <a href="#contactenos" type="button" class="btn btn-secondary">Contactenos</a>
+          </div>
+
+        </div>
+
+
+        <div data-position="right" data-offset="60" class="d-flex infoBlocks notViewed animBlock">
+
+          <div class="ml-auto">
+            <i class="fas fa-question iconosMorados"></i>
+          </div>
+          <div class="espacioTextos">
+            <h3 class="font-weight-bold">¿Tiene declaraciones de impuestos vencidas?</h3>
+            <p class="parrafoGris">Nuestro despacho contable se encargará de mantener en orden la información tributaria
+              de su empresa y así evitarle pagar multase.
+            </p>
+            <a href="#contactenos" type="button" class="btn btn-secondary">Contactenos</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <!--------------------- BANNER1 -------------------------->
+  <section class="banner1-image">
+    <div  id="banner1" class="banner-text fade">
+      <h1 class="">Te ayudamos a organizar tus procesos contables</h1>
+      <a onclick="document.getElementById('btn_contactenos').click()" type="button"
+        class="btn btn-secondary">Contactenos</a>
+
+    </div>
+  </section>
+
+
+  <!--------------- SERVICIOS ------------------------>
+
+  <section id="servicios">
+    <div class="divisionazul"></div>
+
+
+    <div class="container">
+      <div class="row ">
+        <div class="col-4 align-content-center">
+          <img class="logo3" src="logo.png " alt="">
+          <img class="logo2" src="img/logo-header1.png" alt="">
+          <img class="logo1" src="img/logo_header2.png" alt="">
+
+        </div>
+        <div class="col-8">
+          <h3 class="tituloazul">SERVICIOS</h3>
+          <p class="ptexto">Mas que una contabilidad, es un acompañamiento busca asesoría Solis Asesores Contables de
+            forma outsourcing le ayuda a despreocuparse por esos temas tributarios y contables y lograras enfocar su
+            estrategia al crecimiento de su negocio. </p>
+        </div>
+
+        <div data-position="right" data-offset="60" class="servicios notViewed animBlock">
+          <div class="imgServicios">
+            <img class="imgServicios" src="img/servicios1.jpg" alt="Radiografía Financiera">
+
+          </div>
+
+          <div>
+            <h3 class="tituloazul2">Radiografía Financiero:</h3>
+            <p class="ptexto_servicios">Confección de políticas y procedimientos dentro de las mejoras practicas a nivel
+              empresarial, generando un plan de acción para mejorar. <br /><br />
+              <a href="#contactenos" type="button" class="btn-servicios">Contactenos</a>
+            </p>
+
+
+          </div>
+
+
+        </div>
+
+
+
+        <div data-position="left" data-offset="60" class="servicios1 notViewed animBlock">
+
+          <div style="background-color: rgb(26, 26, 61);">
+            <h3 class="tituloazul2">Asesoría tributaria:</h3>
+            <p class="ptexto_servicios">Comunicación, recomendaciones específicas sobre el adecuado cumplimiento de la
+              normativa tributaria, con personal de alto nivel profesional y con capacidad de atender. <br /><br />
+              <a href="#contactenos" type="button" class="btn-servicios">Contactenos</a>
+            </p>
+
+
+          </div>
+
+          <div class="imgServicios">
+            <img class="imgServicios" src="img/servicios2.jpg" alt="Radiografía Financiera">
+
+          </div>
+
+
+        </div>
+
+
+        <div data-position="right" data-offset="60" class="servicios notViewed animBlock">
+          <div class="imgServicios">
+            <img class="imgServicios" src="img/servicios3.jpg" alt="Radiografía Financiera">
+
+          </div>
+
+          <div>
+            <h3 class="tituloazul2">Radiografía Financiero:</h3>
+            <p class="ptexto_servicios">Confección de políticas y procedimientos dentro de las mejoras practicas a nivel
+              empresarial, generando un plan de acción para mejorar. <br /><br />
+              <a href="#contactenos" type="button" class="btn-servicios">Contactenos</a>
+            </p>
+
+
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+   <!--------------------- BANNER2 -------------------------->
+   <section class="banner2-image">
+    <div id="banner2" class="banner-text fade">
+      <h1 class="">Te ayudamos a organizar tus procesos contables</h1>
+      <a onclick="document.getElementById('btn_contactenos').click()" type="button"
+        class="btn btn-secondary">Contactenos</a>
+
+    </div>
+  </section>
+  
+
+
+  <!------------------------ CONTACTENOS ---------------------->
+
+  <section id="contactenos">
+    <div class="divisionVerde"></div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-4 align-content-center">
+          <img class="logo3" src="logo.png " alt="">
+          <img class="logo2" src="img/logo-header1.png" alt="">
+          <img class="logo1" src="img/logo_header2.png" alt="">
+
+        </div>
+        <div class="col-8">
+          <h3 class="tituloVerde font-weight-bold">CONTACTENOS</h3>
+          <h5 class="parrafoGris">Te ayudamos a encontrar la solución financiera que más se ajusta a tus necesidades.
+          </h5>
+        </div>
+
+      </div>
+
+      <form id="myForm" class="needs-validation" action="sendmail.php" method="POST" novalidate>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <input name="nombre" type="text" class="form-control textBox" id="nombre" placeholder="Nombre Completo: *"
+              required>
+            <div class="invalid-feedback">Ingrese su nombre completo.</div>
+          </div>
+          <div class="form-group col-md-6">
+            <input name="email" type="email" class="form-control textBox" id="email" placeholder="e-mail: *" required>
+            <div class="invalid-feedback">Ingrese su correo electrónico.</div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <input name="telefono" type="text" class="form-control textBox" id="telefono"
+              placeholder="Numero de telefono: *" required>
+            <div class="invalid-feedback">Ingrese su correo número telefónico.</div>
+          </div>
+          <div class="form-group col-md-6">
+            <input name="asunto" type="text" class="form-control textBox" id="asunto" placeholder="Asunto: *" required>
+            <div class="invalid-feedback">Ingrese un título para su mensaje.</div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <textarea class="form-control textBox" style="min-width: 100%" name="mensaje" id="mensaje" cols="153" rows="5"
+              placeholder="Su Mensaje: *" required></textarea>
+            <div class="invalid-feedback">Ingrese su mensaje.</div>
+          </div>
+
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-verde">Enviar</button>
+      </form>
+
+      <section class="mapa">
+        <div class="row">
+          <div class="col-md-5">
+            <ul class="contacto">
+              <li><i class="fas fa-phone-alt"></i> (506) 2441-9396</li>
+              <li><i class="fas fa-phone-alt"></i> (506) 7014-16-956</li>
+              <li><i class="fas fa-envelope"></i> conta@solisasesorescontables.net</li>
+            </ul>
+            <ul class="list-inline mt-5">
+              <li class="list-inline-item"><a target="_blank" href="https://wa.me/50671207974" alt="">
+                <img src="img/wharsaap.png" alt=""></a>
+              </li>
+              <li class="list-inline-item"><img  src="img/waze.png" alt=""></li>
+            </ul>
+          </div>
+          <div class="col-md-7 d-flex justify-content-end">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.024929801831!2d-84.21578508477845!3d10.014799292841031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0f9c43bc41843%3A0x42634005f5f54e6f!2sJuan%20Santamar%C3%ADa%20Park!5e0!3m2!1sen!2sus!4v1602027207575!5m2!1sen!2sus"
+              width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+
+        </div>
+      </section>
+
+
+    </div>
+
+
+  </section>
+
+
+  <!--------------------------- FOOTER -------------------------->
+  <footer>
+    <div class="fondo">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 d-flex justify-content-center logoFooter">
+            <ul>
+              <img class="logoFooter1 pl-5" src="logo.png" alt="">
+              <img class="logoFooter2" src="img/logo_header2.png" alt="">
+              <h4>Somos más que contabilidad</h4>
+            </ul>
+          </div>
+          <div class="col-4 d-flex justify-content-center">
+            <ul>
+              <h3>Síguenos</h3>
+              <li><a target="_blank" class="link_nav" href="https://www.facebook.com/solisasesorcontable/"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+              <li><a target="_blank" class="link_nav" href="https://wa.me/50671207974"><i
+                class="fab fa-whatsapp"></i> Whatsapp</a></li>
+            </ul>
+          </div>
+          <div class="col-4 d-flex justify-content-center">
+            <ul>
+              <li class="mb-3"><a href="">INICIO</a></li>
+              <li class="mb-3"><a href="#quienessomos">QUIÉNES SOMOS</a></li>
+              <li class="mb-3"><a href="#servicios">SERVICIOS</a></li>
+              <li class="mb-3"><a href="#contactenos">CONTÁCTENOS</a></li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="bottomFooter">
+        <p>Copyright © 2020 Solís Asesores Contables. Todos los derechos reservados.</p>
+      </div>
+    </div>
+    
+
+   
+  </footer>
+
+
+
+  <!------------------------ BOTON GO TO TOP ----------------------------->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fas fa-angle-up"></i>
+  </button>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
